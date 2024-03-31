@@ -66,7 +66,7 @@ def save_gen_plot(examples, n, labels, output_dir):
 
 output_directory = f'gen_im_upscale_{date}'
 # load model
-model = load_model('cgan_generator_3.h5')
+model = load_model('cgan_generator.h5')
 #model.summary()
 for i in range(50):
     # generate images
