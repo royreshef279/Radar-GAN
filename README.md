@@ -9,5 +9,5 @@ To test the GAN follow these instructions:
 1. Run the *dataset.m* file to generate the dataset. This will store the data in a struct format (this might a while, since it's generating 96000 waveforms).
 2. Run the *image_gen.m* to generate the image based on ambiguity function from the waveform struct. This will create two separate folders for 'absent' and 'present' target labels.
 3. Run the *image_resize.py* file to resize the images and remove the axes from the MATLAB saved images. You can adjust the size of the saved images and the number of images to to save as needed.
-4. Run the *cgan.py* file to the train and generate the model. 
+4. Run the *cgan.py* file to the train and generate the model. This takes some time so a default model was already upload just to test it. If you do not wish to generate a new model just skip to step 5. 
 5. Run the *generate_images.py* to the test the model and generate images from the two labels.
